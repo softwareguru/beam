@@ -4,6 +4,10 @@ categories:
   - Open Source
 icon: /images/logos/powered-by/kio.png
 hasNav: true
+testimonial: 
+testimonial_img: 
+testimonial_name: 
+designation_name: 
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");

@@ -11,6 +11,7 @@
 */}}
 
 {{ define "main" }}
+
 <div class="blog-content">
     <h1>Case Studies</h1>
     <p>Check out how the projects are using Apache Beam.</p>
@@ -36,7 +37,7 @@
         {{ end }}
     {{ end }}
 
-    <div class="category-buttons category-buttons_poweredBy">
+    <div class="category-buttons restricted">
       {{ range $.Scratch.Get "categories" }}
         <button xx class="category-button" id='category-{{ . | replaceRE "[.]" "_" | urlize }}' onclick="applyFilter(this)">
           {{ . }}
@@ -71,9 +72,12 @@
           </a>
         {{ end }}
     </div>
-    <div class="category-buttons category-buttons_center">
-        <button id="load-button" class="load-button">{{ T "blog-loadmore" }}</button>
-    </div>
+
+
+  
+    <div class="category-buttons">
+      <button id="load-button" class="load-button">{{ T "blog-loadmore" }}</button>
+  </div>
 
 </div>
 {{ $categoriesFilter := resources.Get "js/categories-filter.js" | minify| fingerprint }}
@@ -109,4 +113,6 @@ function applyFilter(element){
 }
 </script>
 
-{{ end }}
+
+        
+    {{ end }}

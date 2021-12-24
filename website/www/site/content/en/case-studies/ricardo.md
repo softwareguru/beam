@@ -5,6 +5,11 @@ categories:
   - Commercial
   - Enterprise
 icon: /images/logos/powered-by/ricardo.png
+testimonial: Without Beam, without all this data and real time information, we could not deliver the services we are providing and handle the volumes of data we are processing.
+testimonial_img: /images/tobias_kaymak_photo.png
+testimonial_name: Tobias Kaymak
+designation_name: Senior Data Engineer @ Ricardo
+hasNav: true
 ---
 <!--
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,32 +24,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
-<div class="case-study-opinion">
-    <div class="case-study-opinion-img">
-        <img src="/images/logos/powered-by/ricardo.png"/>
-    </div>
-    <blockquote class="case-study-quote-block">
-      <p class="case-study-quote-text">
-        “Without Beam, without all this data and real time information, we could not deliver the services we are providing and handle the volumes of data we are processing.”
-      </p>
-      <div class="case-study-quote-author">
-        <div class="case-study-quote-author-img">
-            <img src="/images/tobias_kaymak_photo.png">
-        </div>
-        <div class="case-study-quote-author-info">
-            <div class="case-study-quote-author-name">
-              Tobias Kaymak
-            </div>
-            <div class="case-study-quote-author-position">
-              Senior Data Engineer @ Ricardo
-            </div>
-        </div>
-      </div>
-    </blockquote>
-</div>
-<div class="case-study-post">
-
-#  Apache Beam Amplified Ricardo’s Real-time and ML Data Processing for eCommerce Platform
 
 ## Background
 
@@ -237,5 +216,5 @@ to value.
 
 Apache Beam has been a technology that multiplied possibilities, allowing Ricardo to maximize technology benefits at all
 stages of their modernization and cloud journey.
-</div>
-<div class="clear-nav"></div>
+
+
